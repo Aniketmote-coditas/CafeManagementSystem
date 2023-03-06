@@ -43,6 +43,11 @@ public class mainFile {
                     t2.join();
                     System.out.println("PRESS 0 FOR EXIT\nPRESS 1 FOR BOOK TABLE\nPRESS 2 FOR PRINT MENU\nPRESS 3 FOR ORDER FOOD");
                     break;
+                case 4:
+                    t3.start();
+                    t3.join();
+                    System.out.println("PRESS 0 FOR EXIT\nPRESS 1 FOR BOOK TABLE\nPRESS 2 FOR PRINT MENU\nPRESS 3 FOR ORDER FOOD\nPRESS 4 FOR TO SEE SEAT AVAILIBILITY");
+                    break;
                 default:
                     System.out.println("PLEASE SELECT FROM ABOVE OPTIONS");
                     break;
